@@ -1,7 +1,8 @@
 # GuitarTone
 Из нашей энциклопедии можно узнать об истории гитары, о видах гитар, о конструкции гитар и многое другое.
 ## Установка
-1. Нажмите на кнопку `Code`.
-2. Нажмите на кнопку `Download ZIP`.
-3. Извлеките папку `GuitarTone-main`.
-4. Откройте файл `index.html`.
+'
+git clone https://github.com/LittleCat1643/GuitarTone.git
+cd GuitarTone
+start popup.html
+'
