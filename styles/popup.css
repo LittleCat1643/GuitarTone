@@ -1,0 +1,156 @@
+::-webkit-scrollbar{
+    width: 6px;
+}
+::-webkit-scrollbar-track{
+    background: #222222; 
+}
+::-webkit-scrollbar-thumb{
+    background: #f77f00;
+}
+.container > .header > .menu > .navigation{
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background: #222222;
+    height: 50px;
+}
+.container > .header > .menu > .navigation > li{
+    float: left;
+}
+.container > .header > .menu > .navigation > li > a{
+    text-decoration: none;
+    color: #f77f00;
+    padding: 0 15px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px;
+    display: block;
+    transition: 0.3s;
+    font-size: 14px;
+}
+.container > .header > .menu > .navigation > li > a:hover{
+    color: #ffba70;
+    background: #f7800035;
+}
+.container > .layout > .blocks > .welcome{
+    margin: 10px;
+    padding: 10px;
+    background: #00000095;
+    border-radius: 10px;
+}
+.container > .layout > .blocks > .welcome > .heading{
+    margin: 0 0 10px;
+    font-weight: 700;
+}
+.container > .layout > .blocks > .welcome > .content > .text > a{
+    transition: 0.3s;
+    text-decoration: none;
+    color: #f77f00;
+}
+.container > .layout > .blocks > .welcome > .content > .text > a:hover{
+    color: #ffba70;
+}
+.container > .layout > .blocks > .about{
+    margin: 10px;
+    padding: 10px;
+    background: #00000095;
+    border-radius: 10px;
+}
+.container > .layout > .blocks > .about > .heading{
+    margin: 0 0 10px;
+    font-weight: 700;
+}
+.container > .layout > .blocks > .dayimages{
+    margin: 10px;
+    padding: 10px;
+    background: #00000095;
+    border-radius: 10px;
+    user-select: none;
+}
+.container > .layout > .blocks > .dayimages > .heading{
+    margin: 0 0 10px;
+    font-weight: 700;
+    user-select: text;
+}
+.container > .layout > .blocks > .dayimages > .heading > b{
+    margin-left: 20px;
+    color: #ffba70;
+}
+.container > .layout > .blocks > .dayimages > .content{
+    height: 300px;
+}
+.container > .layout > .blocks > .dayimages > .content > .one{
+    height: 300px;
+    width: 480px;
+    border-radius: 10px;
+    background-image: url(../images/1-min.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 6px;
+}
+.container > .layout > .blocks > .dayvideos{
+    margin: 10px;
+    padding: 10px;
+    background: #00000095;
+    border-radius: 10px;
+    user-select: none;
+}
+.container > .layout > .blocks > .dayvideos > .heading{
+    margin: 0 0 10px;
+    font-weight: 700;
+    user-select: text;
+}
+.container > .layout > .blocks > .dayvideos > .heading > b{
+    margin-left: 20px;
+    color: #ffba70;
+}
+.container > .layout > .blocks > .dayvideos > .content{
+    height: 267px;
+}
+.container > .layout > .blocks > .dayvideos > .content > .one{
+    display: inline-block;
+}
+.container > .layout > .blocks > .dayvideos > .content > .one > video{
+    border: solid 3px #f77f00;
+    border-radius: 10px;
+    margin-right: 6px;
+}
+.container > .layout > .blocks > .dayvideos > .content > .two{
+    display: inline-block;
+}
+.container > .layout > .blocks > .dayvideos > .content > .two > video{
+    border: solid 3px #f77f00;
+    border-radius: 10px;
+    margin-right: 6px;
+}
+.container > .layout > .blocks > .interesting{
+    margin: 10px;
+    padding: 10px;
+    background: #00000095;
+    border-radius: 10px;
+}
+.container > .layout > .blocks > .interesting > .heading{
+    margin: 0 0 10px;
+    font-weight: 700;
+}
+.widget > .top{
+    margin: 0;
+    position: fixed;
+    bottom: 2vw;
+    right: 2vw;
+    width: 70px;
+    height: 70px;
+    color: #ffba70;
+    background: #000000;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 64px;
+    transition: 0.3s;
+}
+.widget > .top:hover{
+    color: #f77f00;
+}

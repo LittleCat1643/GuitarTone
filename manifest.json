@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "GuitarTone",
+    "version": "1.0",
+    "description": "Из нашей энциклопедии можно узнать об истории гитары, о видах гитар, о конструкции гитар и многое другое.",
+    "icons": {
+        "128": "128.png"
+    },
+    "action": {
+        "default_icon": "favicon.ico",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
